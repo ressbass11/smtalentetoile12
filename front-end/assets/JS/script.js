@@ -67,7 +67,7 @@ function vote(artiste) {
 
         // Vérification avancée du numéro
         // Liste des préfixes valides (exemple Congo : 05, 06, 07, 08, 09)
-        const validPrefixes = ['05', '06', '07', '08', '09'];
+        const validPrefixes = ['06'];
         const phoneRegex = /^0[5-9][0-9]{7}$/;
         const prefix = phoneNumber.substring(0, 2);
         if (!phoneRegex.test(phoneNumber) || !validPrefixes.includes(prefix)) {
