@@ -1,0 +1,8 @@
+# Routes API pour le projet de vote
+
+GET    /api/participants         → Liste des participants
+GET    /api/votes?participant_id=ID   → Nombre de votes pour un participant
+POST   /api/vote                → Enregistrer un vote
+POST   /api/payment             → Enregistrer un paiement
+POST   /api/register            → Créer un utilisateur
+POST   /api/login               → Authentifier un utilisateur
